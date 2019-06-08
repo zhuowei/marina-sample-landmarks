@@ -16,11 +16,11 @@ struct LandmarkRow: View {
             Text(verbatim: landmark.name)
             Spacer()
 
-            /*if landmark.isFavorite {
+            if landmark.isFavorite {
                 Image(systemName: "star.fill")
                     .imageScale(.medium)
                     .foregroundColor(.yellow)
-            }*/
+            } else {} // what
         }
     }
 }
