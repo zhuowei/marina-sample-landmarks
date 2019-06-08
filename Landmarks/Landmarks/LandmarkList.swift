@@ -5,7 +5,7 @@ Abstract:
 A view showing a list of landmarks.
 */
 
-import SwiftUI
+// import SwiftUI
 
 struct LandmarkList: View {
     @EnvironmentObject private var userData: UserData
@@ -18,12 +18,12 @@ struct LandmarkList: View {
                 }
                 
                 ForEach(userData.landmarks) { landmark in
-                    if !self.userData.showFavoritesOnly || landmark.isFavorite {
+                    /*if !self.userData.showFavoritesOnly || landmark.isFavorite {*/
                         NavigationButton(
                         destination: LandmarkDetail(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
                         }
-                    }
+                    //}
                 }
             }
             .navigationBarTitle(Text("Landmarks"), displayMode: .large)

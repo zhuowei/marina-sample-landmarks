@@ -5,7 +5,7 @@ Abstract:
 A view that clips an image to a circle and adds a stroke and shadow.
 */
 
-import SwiftUI
+// import SwiftUI
 
 struct CircleImage: View {
     var image: Image

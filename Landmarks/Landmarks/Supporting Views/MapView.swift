@@ -5,7 +5,7 @@ Abstract:
 A view that hosts an `MKMapView`.
 */
 
-import SwiftUI
+// import SwiftUI
 import MapKit
 
 struct MapView: UIViewRepresentable {

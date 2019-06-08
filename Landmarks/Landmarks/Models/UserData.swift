@@ -5,8 +5,8 @@ Abstract:
 A model object that stores app data.
 */
 
-import Combine
-import SwiftUI
+// import Combine
+// import SwiftUI
 
 final class UserData: BindableObject {
     let didChange = PassthroughSubject<UserData, Never>()

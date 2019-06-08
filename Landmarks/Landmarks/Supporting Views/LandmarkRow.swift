@@ -5,7 +5,7 @@ Abstract:
 A single row to be displayed in a list of landmarks.
 */
 
-import SwiftUI
+// import SwiftUI
 
 struct LandmarkRow: View {
     var landmark: Landmark
@@ -16,11 +16,11 @@ struct LandmarkRow: View {
             Text(verbatim: landmark.name)
             Spacer()
 
-            if landmark.isFavorite {
+            /*if landmark.isFavorite {
                 Image(systemName: "star.fill")
                     .imageScale(.medium)
                     .foregroundColor(.yellow)
-            }
+            }*/
         }
     }
 }
